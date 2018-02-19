@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css.style.css"/>
-    
-</head>
-<body>
-    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Hang | Me </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    </head>
+    <body>
+        <div class="container"> 
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">Hangman</h1>
+                    <p class="lead">Press any key to get started..</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                <center>
+                    <div class="container">
+                        <ul class="list-group">
+                            <li class="list-group-item"></li>
+                            <li class="list-group-item list-group-item-secondary">Total losses:<h3 id="lossCount"></h3></li>
+                            <li class="list-group-item list-group-item">Total Wins:<h3 id="winCount"></h3></li>
+                            <li class="list-group-item list-group-item-secondary">How many guesses left:<h3 id="remaining"></h3></li>
+                            <li class="list-group-item list-group-item" style="display:none" ><h3 id="word"></h3></li>
+                            <li class="list-group-item list-group-item">Word:<h3 id="blanks"></h3></li>
+                            <li class="list-group-item list-group-item-secondary">Wrong guesses:<h3 id="failed"></h3></li>
+                        </ul>
+                    </div>
+                </center>
+                </div>
+                </div>
+            </div>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+        
+        
 </body>
-</html>
+</html> 

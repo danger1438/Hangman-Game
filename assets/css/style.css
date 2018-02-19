@@ -1,0 +1,32 @@
+body {
+    background-color: grey;
+}
+
+h1 { color: black;
+     text-align: center;
+     font-family: Tahoma;
+}
+
+p { color: darkgray;
+    text-align: center;
+    font-family: Tahoma;
+}
+
+.jumbotron-fluid {
+    background-color: lightgrey;
+
+}
+.list-group {
+    font-family: Tahoma;
+    width: 70%;
+    text-align: center;
+    
+}
+p {
+    color: black;
+    font-size: 40px;
+}
+
+
+
+
